@@ -14,6 +14,6 @@ Utilisation du UpperChamelCase
   - js
   - css
     - master.css
-    -autre_fichier.css
+    - autre_fichier.css
   - index.html
   - autre_page.html
