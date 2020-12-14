@@ -17,6 +17,8 @@ Files : |        |
         |        | autre_fichier.css
         |  js :  |
 
+        *** Code Markdown ***
+        *********************
 | Header 1      |     2 header    |   header 3 |
 | ------------- |: -------------: | ---------: |
 | 1 Online      |        1        |      value |
