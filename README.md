@@ -8,3 +8,10 @@
 Utilisation du UpperChamelCase
 
 ## FICHIER
+-       |:-----:| -:
+Files : |       |
+        | img : | *Value*
+        | css : |
+        |       | master.css
+        |       | autre_fichier.css
+        |  js : |
