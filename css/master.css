@@ -6,10 +6,13 @@
 body {
   background-color: #000;
   font-family: '', sans-serif;
-  color: #f1efe0;
+  /*color: #F1EFE0;*/
+  color: #FFF;
   font-size: 1em;
   line-height: 1.6em;
   font-weight: 400;
+
+  margin: 0;
 }
 
 h1 {
@@ -201,6 +204,7 @@ figcaption {
 /*
 https://developer.mozilla.org/fr/docs/Web/CSS/@font-face
 */
+/*
 @font-face {
   font-family: '';
   src: url('');
@@ -229,3 +233,4 @@ https://developer.mozilla.org/fr/docs/Web/CSS/@font-face
   font-style: normal;
   font-display: auto;
 }
+*/
