@@ -17,3 +17,13 @@ Utilisation du UpperChamelCase
     - autre_fichier.css
   - index.html
   - autre_page.html
+
+## Petit tips
+  Acceder au fichier css :
+    ***
+      herf = "css/nom_du_fichier.css";
+    ***
+  Acceder au fichier js :
+    ***
+      "js/nom_du_fichier.js"
+    ***
