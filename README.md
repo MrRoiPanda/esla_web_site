@@ -1,11 +1,12 @@
 # esla_web_site
 
 ## A connaitre :
-1. Apprendre les flexboxs
-2. Apprendre les Grids
+1. [les flexboxs](https://flexboxfroggy.com/#fr)
+2. [les Grids](https://cssgridgarden.com/#fr)
+3. [Absolute & relative](https://developer.mozilla.org/fr/docs/Web/CSS/position)
 
 ## Methode de travaille :
-Utilisation du UpperChamelCase
+  Utilisation du UpperChamelCase
 
 ## FICHIER
 
