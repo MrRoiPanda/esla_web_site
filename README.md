@@ -13,8 +13,8 @@
 - Files
   - assets
     - img
-    - bg.svg
-    - img.png
+      - bg.svg
+      - img.png
   - src
     - js
     - partials
