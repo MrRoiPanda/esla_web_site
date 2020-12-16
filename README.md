@@ -11,21 +11,30 @@
 ## FICHIER
 
 - Files
-  - img
-  - js
-  - css
-    - master.css
-    - autre_fichier.css
+  - assets
+    - img
+      - bg.svg
+      - img.png
+  - src
+    - js
+    - partials
+      - nav.html
+      - nav.html
+    - scss
+      - master.scss
+      - autre_fichier.css
+    - styles.scss
+    - index.js
   - index.html
-  - autre_page.html
+
 
 ## Petit tips
   Acceder au fichier css :
     ```html
-      herf = "css/nom_du_fichier.css";
+      "src/styles.scss";
     ```
 
   Acceder au fichier js :
     ```html
-      "js/nom_du_fichier.js"
+      "src/index.js"
     ```
