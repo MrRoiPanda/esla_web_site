@@ -2,12 +2,15 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="UTF-8"/>
-    <link rel="stylesheet" type="text/css" href="src/styles.scss"/>
+    <!-- Preload -->
+    <link rel="preload" href="src/styles.scss" as="style">
+    <link rel="preload" href="src/index.js" as="script">
+
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- Canonical -->
     <link rel="canonical" href="https://www.example.com">
     <!-- Robots -->
-    <meta name="robots" content="noindex, nofollow">
+    <meta name="robots" content="index, nofollow">
     <!-- Device -->
     <!-- <meta name="viwport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5">
@@ -20,12 +23,26 @@
     <!-- Twitter -->
     <!-- Facebook -->
     <!-- Favicon -->
-    <meta name="theme-color" content="#fff">
+    <meta name="theme-color" content="#000">
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="src/styles.scss"/>
+    <!-- Auther  -->
+    <link rel="apple-touch-icon" href="/example.png">
   </head>
   <body>
-    <a href="styles.html">les styles</a>
+    <header>
 
+    </header>
+    <a href="styles.html">les styles</a>
+    <br>
     <a class="github-button" href="https://github.com/MrRoiPanda" data-size="large" data-show-count="true" aria-label="Star MrRoiPanda on GitHub">Star</a>
+    <br>
+    <a href="#" class="q-btn q-btn--github">
+      <img src="/assets/img/github.svg" alt="github icon"/>See on Github
+    </a>
+    <a href="#" class="q-btn q-btn--discord">
+      <img src="/assets/img/discord.svg" alt="discord icon"/>Join us on Discord
+    </a>
     <script src="src/index.js"></script>
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
