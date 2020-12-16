@@ -10,22 +10,21 @@
 
 ## FICHIER
 
-- Files
-  - assets
-    - img
-      - bg.svg
-      - img.png
-  - src
-    - js
-    - partials
-      - nav.html
-      - nav.html
-    - scss
-      - master.scss
-      - autre_fichier.css
-    - styles.scss
-    - index.js
-  - index.html
+- assets
+  - img
+    - bg.svg
+    - img.png
+- src
+  - js
+  - partials
+    - nav.html
+    - nav.html
+  - scss
+    - master.scss
+    - autre_fichier.css
+  - styles.scss
+  - index.js
+- index.html
 
 
 ## Petit tips
