@@ -40,3 +40,5 @@
     ```
 ## A CHANGER
  - les icons du dossier asstes/icons
+ - les noms et description du fichier "manifest.webmanifest"
+ - la description dans le head
