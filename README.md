@@ -11,6 +11,7 @@
 ## FICHIER
 
 - assets
+  - fonts
   - img
     - bg.svg
     - img.png
