@@ -22,7 +22,7 @@
     - nav.html
   - scss
     - master.scss
-    - autre_fichier.css
+    - _fichier.scss
   - styles.scss
   - index.js
 - index.html
