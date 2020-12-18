@@ -6,7 +6,8 @@
 3. [Absolute & relative](https://developer.mozilla.org/fr/docs/Web/CSS/position)
 
 ## Methode de travaille :
-  Utilisation du UpperChamelCase
+  Utilisation du ChamelCase comme convention de nommage des classes
+
 
 ## FICHIER
 
@@ -18,7 +19,7 @@
 - src
   - js
   - partials
-    - nav.html
+    - footer.html
     - nav.html
   - scss
     - master.scss
@@ -30,14 +31,14 @@
 
 ## Petit tips
   Acceder au fichier css :
-    ```html
-      "src/styles.scss";
-    ```
+```html
+<link rel="stylesheet" type="text/css" href="src/styles.scss"/>
+```
 
   Acceder au fichier js :
-    ```html
-      "src/index.js"
-    ```
+```html
+<script src="src/index.js"></script>
+```
 ## A CHANGER
  - les icons du dossier asstes/icons
  - les noms et description du fichier "manifest.webmanifest"
