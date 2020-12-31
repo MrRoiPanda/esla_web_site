@@ -4,10 +4,8 @@
   - Fonts
 */
 * {
-  /*
   margin: 0;
   padding : 0;
-  */
   font-display: optional;
 }
 
@@ -24,27 +22,35 @@ body {
 h1 {
   margin-top: 0px;
   margin-bottom: 40px;
-  font-family: '', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 6em;
   line-height: 1em;
   font-weight: 900;
   text-transform: uppercase;
+
+  color : rgba(192,192,192,0.1);;
+  -webkit-text-stroke: 1px black;
+  text-shadow: -3px 3px red;
 }
 
 h2 {
   margin-top: 0px;
   margin-bottom: 20px;
-  font-family: '', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 4em;
   line-height: 1em;
   font-weight: 900;
   text-transform: uppercase;
+
+  color : rgba(192,192,192,0.1);;
+  -webkit-text-stroke: 1px black;
+  text-shadow: -3px 3px red;
 }
 
 h3 {
   margin-top: 0px;
   margin-bottom: 20px;
-  font-family: '', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 1.7em;
   line-height: 1.2em;
   font-weight: 400;
@@ -54,7 +60,7 @@ h3 {
 h4 {
   margin-top: 0px;
   margin-bottom: 20px;
-  font-family: '', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 1.4em;
   line-height: 1.6em;
   font-weight: 500;
@@ -65,7 +71,7 @@ h4 {
 h5 {
   margin-top: 0px;
   margin-bottom: 20px;
-  font-family: '', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 1.1em;
   line-height: 1.2em;
   font-weight: 500;
@@ -76,7 +82,7 @@ h5 {
 h6 {
   margin-top: 0px;
   margin-bottom: 10px;
-  font-family: '', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 0.6em;
   line-height: 2em;
   font-weight: 600;
@@ -86,7 +92,7 @@ h6 {
 
 p {
   margin-bottom: 20px;
-  font-family: '', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1em;
   line-height: 2em;
 }
@@ -215,33 +221,18 @@ figcaption {
 /*
 https://developer.mozilla.org/fr/docs/Web/CSS/@font-face
 */
-/*
+
 @font-face {
-  font-family: '';
-  src: url('');
+  font-family: 'Lora';
+  src: url('assets/fonts/Lora/Lora-Bold.ttf');
   font-weight: 900;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
-  font-family: '';
-  src: url('');
-  font-weight: 700;
-  font-style: normal;
-  font-display: auto;
-}
-@font-face {
-  font-family: '';
-  src: url('');
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Montserrat/Montserrat-Medium.ttf');
   font-weight: 500;
   font-style: normal;
   font-display: auto;
 }
-@font-face {
-  font-family: '';
-  src: url('');
-  font-weight: 700;
-  font-style: normal;
-  font-display: auto;
-}
-*/
