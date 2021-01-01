@@ -1,3 +1,3 @@
-header{height:100vh}
+header{height:100vh;display:flex;justify-content:space-around;flex-flow:row wrap;align-items:center}h2{margin-top:20px;margin-bottom:20px}div .txt{display:flex;flex-flow:column;align-items:center;width:256px;height:256px}.txt hr{width:100%}
 
 /*# sourceMappingURL=homepage.css.map */

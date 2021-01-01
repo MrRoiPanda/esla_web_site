@@ -10,8 +10,8 @@
 }
 
 body {
-  background-color: #FFF;
-  font-family: '', sans-serif;
+  background-color: #eff7f6;
+  font-family: 'Montserrat', sans-serif;
   /*color: #F1EFE0;*/
   color: #000;
   font-size: 1em;
@@ -23,6 +23,20 @@ h1 {
   margin-top: 0px;
   margin-bottom: 40px;
   font-family: 'Lora', serif;
+  font-size: 8em;
+  line-height: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+
+  color : rgba(192,192,192,0.1);;
+  -webkit-text-stroke: 1px black;
+  text-shadow: -3px 3px #7bdff2;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: 'Lora', serif;
   font-size: 6em;
   line-height: 1em;
   font-weight: 900;
@@ -30,21 +44,7 @@ h1 {
 
   color : rgba(192,192,192,0.1);;
   -webkit-text-stroke: 1px black;
-  text-shadow: -3px 3px red;
-}
-
-h2 {
-  margin-top: 0px;
-  margin-bottom: 20px;
-  font-family: 'Lora', serif;
-  font-size: 4em;
-  line-height: 1em;
-  font-weight: 900;
-  text-transform: uppercase;
-
-  color : rgba(192,192,192,0.1);;
-  -webkit-text-stroke: 1px black;
-  text-shadow: -3px 3px red;
+  text-shadow: -3px 3px #7bdff2;
 }
 
 h3 {
@@ -93,7 +93,7 @@ h6 {
 p {
   margin-bottom: 20px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
+  font-size: 1.7em;
   line-height: 2em;
 }
 
@@ -159,6 +159,7 @@ figcaption {
   font-style: normal;
   text-align: center;
 }
+/*Tablette & petit ecran*/
 
 @media screen and (max-width: 991px) {
   h1 {
@@ -198,7 +199,7 @@ figcaption {
   }
 
   h2 {
-    font-size: 2.1em;
+    font-size: 2.7em;
   }
 
   h3 {
@@ -211,6 +212,9 @@ figcaption {
 
   h5 {
     letter-spacing: 2px;
+  }
+  p {
+    font-size: 1em;
   }
 
   li {
@@ -226,7 +230,7 @@ https://developer.mozilla.org/fr/docs/Web/CSS/@font-face
   font-family: 'Lora';
   src: url('assets/fonts/Lora/Lora-Bold.ttf');
   font-weight: 900;
-  font-style: normal;
+  font-style: Bold;
   font-display: auto;
 }
 @font-face {
