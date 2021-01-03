@@ -19,6 +19,13 @@ body {
   font-weight: 400;
 }
 
+.fade-page-in {
+  position: relative;
+  z-index: 1;
+  display: block;
+  height: 100vh;
+}
+
 h1 {
   margin-top: 0px;
   margin-bottom: 40px;

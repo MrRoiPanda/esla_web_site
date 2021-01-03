@@ -1,11 +1,15 @@
 header {
   height: 100vh;
+  width: auto;
   display: flex;
   justify-content: space-around;
   flex-flow: row wrap;
   align-items: center;
 }
 
+div.gif img {
+  max-height: 90vw;
+}
 h2 {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -19,4 +23,16 @@ div .txt {
 }
 .txt hr {
   width: 100%;
+}
+
+/*----------------*/
+.presentation {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.presentation p {
+  max-width: 95vw;
+  margin: auto;
 }
