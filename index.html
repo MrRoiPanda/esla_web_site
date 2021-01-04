@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8"/>
     <!-- Preload -->
-    <link rel="preload" href="src/styles.scss" as="style">
+    <link rel="preload" href="css/styles.css" as="style">
     <link rel="preload" href="src/index.js" as="script">
 
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -27,7 +27,7 @@
     <!-- Manifest -->
     <link rel="manifest" href="assets/manifest.webmanifest">
     <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="src/styles.scss"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
     <!-- Auther  -->
     <link rel="apple-touch-icon" href="/example.png">
   </head>
@@ -39,15 +39,15 @@
     <div class="fade-page-in" style="opacity:1;">
       <div id="Navigation" class="nav-section">
         <div class="nav-bar">
-          <div id="spy-me" class="menu-toggle">
-            <div class="menu-toggle-line"></div>
-            <div class="menu-toggle-line"></div>
-            <div class="menu-toggle-line"></div>
+          <div id="nav-icon" class=" menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
         </div>
       </div>
       <!-- Nav Menu -->
-      <div id="Nav-overlay" class="menu-overlay" style="opacity:0;">
+      <div id="Nav-overlay" class="menu-overlay" style="opacity: 0; display: none;">
         <div class=" container menu-overlay-container">
           <nav class="nav-block">
             <ul role="list" class="navigation-menu list-unstyled">
@@ -94,7 +94,9 @@
         </div>
       </footer>
     </div>
+    <script type="text/javascript">
 
+    </script>
 
     <script src="src/index.js"></script>
   </body>

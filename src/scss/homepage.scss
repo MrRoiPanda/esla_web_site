@@ -5,24 +5,23 @@ header {
   justify-content: space-around;
   flex-flow: row wrap;
   align-items: center;
-}
-
-div.gif img {
-  max-height: 90vw;
-}
-h2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-div .txt {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  width: 256px;
-  height: 256px;
-}
-.txt hr {
-  width: 100%;
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .gif img {
+    max-height: 90vw;
+  }
+  .txt {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 256px;
+    height: 256px;
+    hr {
+      width: 100%;
+    }
+  }
 }
 
 /*----------------*/
@@ -30,9 +29,8 @@ div .txt {
   display: flex;
   flex-flow: column;
   align-items: center;
-}
-
-.presentation p {
-  max-width: 95vw;
-  margin: auto;
+  p {
+    max-width: 95vw;
+    margin: auto;
+  }
 }
