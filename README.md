@@ -1,12 +1,12 @@
 ﻿# ESLA Web Site
 
-### Description
+## Description
 
 This project is my ESLA project.
 
-### Installation
+## Installation
 
-### Usage
+## Usage
 
 Download project and run index.html
 
