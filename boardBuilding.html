@@ -1,10 +1,84 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8"/>
+    <!-- Preload -->
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="preload" href="src/index.js" as="script">
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Canonical -->
+    <!-- <link rel="canonical" href="https://example.com"/> -->
+    <!-- Robots -->
+    <meta name="robots" content="index, nofollow">
+    <!-- Device -->
+    <!-- <meta name="viwport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5">
+    <meta name="format-detection" content="telephone=no">
+    <!-- Title -->
     <title>Board Building</title>
+    <!-- Description -->
+    <meta name="description" content="Home description.">
+    <!-- Social -->
+    <!-- Twitter -->
+    <!-- Facebook -->
+    <!-- Favicon -->
+    <meta name="theme-color" content="#000">
+    <!-- Manifest -->
+    <link rel="manifest" href="assets/manifest.webmanifest">
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <!-- Auther  -->
+    <link rel="apple-touch-icon" href="/example.png">
   </head>
   <body>
+    <div class="fade-page-in" style="opacity:1;">
+      <div id="Navigation" class="nav-section">
+        <div class="nav-bar">
+          <div id="nav-icon" class=" menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <!-- Nav Menu -->
+      <div id="Nav-overlay" class="menu-overlay" style="opacity: 0; display: none;">
+        <div class=" container menu-overlay-container">
+          <nav class="nav-block">
+            <ul role="list" class="navigation-menu list-unstyled">
+              <li><a href="index.html" class="nav-menu-link">home</a></li>
+              <li><a href="PresentationEsla.html" class="nav-menu-link">ESLA</a></li>
+              <li><a href="connectedWeek.html" class="nav-menu-link">Connected week</a></li>
+              <li><a href="boardBuilding.html" class="nav-menu-link">Board Building</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
 
+      <!-- page content -->
+
+      <footer>
+        <div class="footer--container">
+          <h2>column 1</h2>
+          <ul>
+            <li><a href="https://chevrollier.paysdelaloire.e-lyco.fr/">Chevrollier web site</a></li>
+            <li><a href="https://goo.gl/maps/AwKUapdZeMS6paHA7">Where we are !</a></li>
+            <!-- BUG: correct css ...
+            <li><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2697.802511224918!2d-0.561138084374746!3d47.45478897917488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480878a40bf720bf%3A0xbdbd66228a037a2d!2sLyc%C3%A9e%20G%C3%A9n%C3%A9ral%20%26%20Professionnel%20Chevrollier!5e0!3m2!1sfr!2sfr!4v1610540234996!5m2!1sfr!2sfr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></li>
+            -->
+          </ul>
+        </div>
+        <div class="footer--container">
+          <h2>column 2</h2>
+          <ul>
+            <li><a href="#">Github</a> </li>
+            <li><a href="#">Créated by</a></li>
+          </ul>
+        </div>
+        <div class="Copyright"><p>Copyright c</p> </div>
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
