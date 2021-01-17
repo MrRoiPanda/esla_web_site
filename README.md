@@ -1,18 +1,5 @@
 ﻿# ESLA Web Site
 
-## A connaitre :
-1. [les flexboxs](https://flexboxfroggy.com/#fr)
-2. [les Grids](https://cssgridgarden.com/#fr)
-3. [Absolute & relative](https://developer.mozilla.org/fr/docs/Web/CSS/position)
-
-## Inspiration possible :
-
-1. [Awwwards](https://www.awwwards.com )
-
-## Methode de travaille :
-  Utilisation du ChamelCase comme convention de nommage des classes
-
-
 ## FICHIER
 
 - assets
