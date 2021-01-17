@@ -1,5 +1,5 @@
 ﻿# ESLA Web Site
- 
+ [License](LICENSE)
 ## Contributing
 Made with one of my classmate
 
@@ -16,7 +16,3 @@ Download project
  run index.html
 
 ## Project status
-
-## [License](LICENSE)
-
-
