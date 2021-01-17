@@ -17,6 +17,6 @@ Download project
 
 ## Project status
 
-## License
+## [License](LICENSE)
 
-https://github.com/MrRoiPanda/esla_web_site/LICENSE
+
