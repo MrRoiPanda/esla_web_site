@@ -1,49 +1,20 @@
-﻿# esla_web_site
+﻿# ESLA Web Site
+ [License](LICENSE)
+## Contributing
+Made with one of my classmate
 
-## A connaitre :
-1. [les flexboxs](https://flexboxfroggy.com/#fr)
-2. [les Grids](https://cssgridgarden.com/#fr)
-3. [Absolute & relative](https://developer.mozilla.org/fr/docs/Web/CSS/position)
+## Description
 
-## Inspiration possible :
+This project is my ESLA project.
 
-1. [Awwwards](https://www.awwwards.com )
+## Installation
 
-## Methode de travaille :
-  Utilisation du ChamelCase comme convention de nommage des classes
+Download project
 
+## Usage
 
-## FICHIER
+ run index.html
 
-- assets
-  - fonts
-  - img
-    - bg.svg
-    - img.png
-- src
-  - js
-  - partials
-    - footer.html
-    - nav.html
-  - scss
-    - master.scss
-    - _fichier.scss
-  - styles.scss
-  - index.js
-- index.html
+## Project status
 
-
-## Petit tips
-  Acceder au fichier css :
-```html
-<link rel="stylesheet" type="text/css" href="src/styles.scss"/>
-```
-
-  Acceder au fichier js :
-```html
-<script src="src/index.js"></script>
-```
-## A CHANGER
- - les icons du dossier asstes/icons
- - les noms et description du fichier "manifest.webmanifest"
- - la description dans le head
+Not Finished
