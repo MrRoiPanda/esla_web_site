@@ -1,5 +1,5 @@
 ﻿# ESLA Web Site
- [License](LICENSE)
+
 ## Contributing
 Made with one of my classmate
 
@@ -18,3 +18,7 @@ Download project
 ## Project status
 
 Not Finished
+
+## License
+
+ [MIT](LICENSE) © [GitHub](https://github.com/)
