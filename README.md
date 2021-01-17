@@ -1,4 +1,7 @@
 ﻿# ESLA Web Site
+ 
+## Contributing
+Made with one of my classmate
 
 ## Description
 
@@ -6,7 +9,12 @@ This project is my ESLA project.
 
 ## Installation
 
+Download project
+
 ## Usage
 
-Download project and run index.html
+ run index.html
 
+## Project status
+
+## License
