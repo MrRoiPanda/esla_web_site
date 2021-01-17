@@ -107,6 +107,9 @@ p {
 a {
   color: #ff4242;
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7em;
+  line-height: 2em;
 }
 
 ul {
@@ -123,6 +126,7 @@ ol {
 
 li {
   margin-bottom: 10px;
+  list-style: none;
   font-family: '', sans-serif;
   font-size: 1em;
   line-height: 1.6em;
@@ -221,6 +225,10 @@ figcaption {
     letter-spacing: 2px;
   }
   p {
+    font-size: 1em;
+  }
+
+  a {
     font-size: 1em;
   }
 

@@ -2,4 +2,14 @@ footer {
   display: grid;
   grid: auto-flow dense;
   background-color: #b2f7ef;
+
+  .copyright {
+    background: #1f1f1f;
+    p {
+      color: #f1f1f1;
+      font-size: 1em;
+      text-align: center;
+      margin-bottom: 0;
+    }
+  }
 }
