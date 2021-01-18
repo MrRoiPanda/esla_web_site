@@ -1,11 +1,11 @@
 ﻿# ESLA Web Site
 
-## Contributing
-Made with one of my classmate
-
 ## Description
 
 This project is my [ESLA project.](https://roipanda-website.web.app/)
+This is my personnal part of this work
+
+in `src/` you can deleat `styles.scss` & `scss` files, because we use the auto-compiled css files.
 
 ## Installation
 
@@ -17,8 +17,8 @@ Download project
 
 ## Project status
 
-Not Finished
+Finish
 
 ## License
 
- [MIT](LICENSE) © [GitHub](https://github.com/)
+ [GPL v3.0](LICENSE) © [GitHub](https://github.com/)

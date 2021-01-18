@@ -58,7 +58,7 @@ h3 {
   margin-top: 0px;
   margin-bottom: 20px;
   font-family: 'Lora', serif;
-  font-size: 1.7em;
+  font-size: 3em;
   line-height: 1.2em;
   font-weight: 400;
   text-transform: uppercase;
@@ -170,6 +170,10 @@ figcaption {
   font-style: normal;
   text-align: center;
 }
+
+article {
+  margin-bottom: 20px;
+}
 /*Tablette & petit ecran*/
 
 @media screen and (max-width: 991px) {
@@ -192,6 +196,10 @@ figcaption {
   h5 {
     font-size: 1em;
   }
+
+  p {
+    font-size: 1.2em;
+  }
 }
 
 /*Tablette*/
@@ -199,6 +207,9 @@ figcaption {
 @media screen and (max-width: 767px) {
   h2 {
     font-size: 3em;
+  }
+  p {
+    font-size: 1em;
   }
 }
 
@@ -225,7 +236,7 @@ figcaption {
     letter-spacing: 2px;
   }
   p {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   a {
