@@ -7,8 +7,14 @@ footer {
 
   .footer--container {
     grid-row: 1;
+    a {
+      color: #deb2e8;
+    }
     h2 {
-
+      margin-left: 10px;
+    }
+    ul {
+      margin-left: 20px;
     }
   }
 
@@ -22,19 +28,7 @@ footer {
       text-align: center;
       margin-bottom: 0;
     }
+
   }
-
-}
-@media screen and (max-width: 767px) {
-  .footer--container {
-    h2 {
-      font-size: 2em;
-    }
-  }
-}
-
-/* telephone*/
-
-@media screen and (max-width: 479px) {
 
 }

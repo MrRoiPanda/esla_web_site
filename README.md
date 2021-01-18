@@ -11,6 +11,10 @@ in `src/` you can deleat `styles.scss` & `scss` files, because we use the auto-c
 
 Download project
 
+```shell
+$ git clone https://github.com/MrRoiPanda/esla_web_site.git
+```
+
 ## Usage
 
  run index.html
