@@ -1,3 +1,0 @@
-header{height:100vh;width:auto;display:flex;justify-content:space-around;flex-flow:row wrap;align-items:center}header h2{margin-top:20px;margin-bottom:20px}header .gif img{max-height:90vw}header .txt{display:flex;flex-flow:column;align-items:center;width:256px;height:256px}header .txt hr{width:100%}.presentation{display:flex;flex-flow:column;align-items:center}.presentation p{max-width:95vw;margin:auto}
-
-/*# sourceMappingURL=homepage.css.map */
